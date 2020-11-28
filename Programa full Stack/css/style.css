@@ -1,0 +1,125 @@
+html{
+    margin: 0 auto;
+}
+
+body{
+    background-color:black;
+    margin:0;
+    padding: 0;
+}
+body, td, li{
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 0rem;
+    
+}
+h1{
+
+    color: white;
+}
+h2{
+    color:white;
+    text-align: center;
+
+}
+h3{
+    color:white;
+    text-align: center;
+    
+}
+p{  
+    justify-content: space-between;
+    font-size: 25px; 
+    color:white}
+img{
+    max-width: 40%;
+
+}
+ul{
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+li{
+    align-items: center;
+    padding: 1rem ;
+}
+footer{
+    background-color: rgb(54, 52, 52);
+    padding: 2rem;
+    margin: 0;
+}
+
+
+.contenedor{
+    text-align: center;
+    margin-top: 40px;
+    color:white;
+}
+@media only screen and (min-width:768px){
+ .max-width{
+        display: none;
+    }
+}
+
+.columna-4{
+    display: block;
+    align-content: center;
+    border: blanchedalmond;
+    
+}
+/*navegacion*/
+.navegacion{
+background-color: darkred!important;
+}
+
+/*Botones*/
+.btn-nav:hover{
+color: black!important;
+}
+.boton{
+    font-size: 30px;
+    padding: 5px;
+    color: white;
+
+}
+.btn{
+    margin-top: 30px;
+}
+.btn:hover{
+    color:black;
+}
+.btn2{
+    max-width: 100%;
+    text-decoration: none;
+    color: cadetblue;
+ 
+}
+.btn2:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+.imagen{
+    border-radius: 10%;
+}
+.body{
+    margin-bottom: 2rem;
+}
+.margin-bottom{
+    margin-bottom: 1rem;
+}
+@media only screen and (max-width:768px){
+.responsivo{
+ display: none;   
+
+}
+}
+/*Formulario*/
+.formulario{
+    margin: auto 40px auto 40px;
+}
+/*footer*/
+footer{
+    padding: 0;
+}
